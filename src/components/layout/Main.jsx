@@ -11,13 +11,12 @@ export default class Main extends Component {
     
     state = {
         salary: 10,
-        accounts: 0,
-        finalValue: 0,
+        accounts: 0
     }
 
     calculation = () => {
         this.setState({
-            finalValue: this.state.salary - this.state.accounts
+            salary: this.state.salary - this.state.accounts
         })
     }
 
@@ -40,7 +39,7 @@ export default class Main extends Component {
                     <Salary setSalary={this.changeSalary}/>
                     <Accounts setAccouns={this.changeAccounts}/>
                     <Button calculation={this.calculation}/>
-                    <Amount amount={this.state.finalValue}/>
+                    <Amount amount={this.state.salary}/>
                 </div>
             </div>
         )

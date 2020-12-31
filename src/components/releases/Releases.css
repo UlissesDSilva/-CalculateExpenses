@@ -1,0 +1,26 @@
+.Releases{
+    margin-top: 40px;
+    color: #3a3333;
+}
+
+.Releases input{
+    width: 100px;
+}
+
+button{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border: 2px solid #BCCF02;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 22px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: 0 4px 10px 0 #9B539C, 0 3px 15px 0 #9B539C;
+    font-size: 18px;
+    transition: 0.5s;
+}
